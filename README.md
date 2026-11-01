@@ -46,20 +46,41 @@ This dashboard shows basic metrics such as new customer and churn trend, lifecyc
 
 ![Customer Overview dashboard](Screenshots/customer_overview_dashboard.png)
 
+### Business Analysis
+- Churn & New Customers follows similar pattern, indicating ***Overall Churn is rate is fixed*** and increasing new customers isn't sole solution.
+- Metro cities are dominating in terms of sale, as well as churn.
+- Churning customers is more than 50% of Loyal customers, that is also concerning.
+---
+
 ### Churn Dashboard
 This dashboard shows all the key pointers and trends to analyze churn behavior, including delivery delays and last order patterns.
 
 ![Churn dashboard](Screenshots/churn_dashboard.png)
+
+### Business Analysis
+- Customer rating isn't a good metric of potential churn. Churned customers often gave good ratings (more than 4).
+- Delivery delays often correlated to churn, as higher delivery delay may lead to platform switch.
+- ***Discounting can be a failure***. Platform discounted most to the customers that churned overall.
+- One of the churn causes can be ***Last Order Pattern***. Cancelling often relates to churn.
+---
 
 ### Revenue
 This dashboard speaks money. It shows how, from where and when revenue generated. It also segregates churned vs loyal revenues.
 
 ![Revenue dashboard](Screenshots/revenue_dashboard.png)
 
+### Business Analysis
+- ₹4.99M of the revenue is at risk due to potential churn.
+- Bengaluru, Delhi & Mumbai leads in terms of net lifetime value of current customers.
+- Loyal Customers contributes ***89.38%*** in the net revenue compared to rest to churned.
+---
+
 ### COHORT ANALYSIS
 This dashboard do a cohort analysis based upon churn rate, retention rate, customer counts and revenue. All the metrics can be easily switched using slicer.
 
 ![Cohort Analysis dashboard](Screenshots/cohort_dashboard.png)
+
+---
 
 ## PostgreSQL Queries
 1. Churn definition \
